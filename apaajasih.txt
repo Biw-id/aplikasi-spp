@@ -145,6 +145,8 @@ INSERT INTO `paymentdetails` (`id`, `payment_link`, `payment_status`, `created_a
 
 
 
+===================================updated
+
 Aplikasi website pembayaran SPP
 Aplikasi berbasis laravel dan vite js, menggunakan database mysql, sistem autentikasi menggunakan laravel bootstrap ui auth. Menggunakan spatie laravel permission sebagai penerapan hak akses untuk setiap fitur.
 
@@ -184,8 +186,4 @@ Super Admin:
 
 alur penggunaan aplikasi pembayaran dari sisi level user
 user login => masuk dashboard => user pilih produk => isi form transaksi => muncul link pembayaran berdasarkan informasi transaksi => bayar => status transaksi berhasil => selesai pembayaran
-
-ptl
-database
-pendidikan mental spiritual
 
