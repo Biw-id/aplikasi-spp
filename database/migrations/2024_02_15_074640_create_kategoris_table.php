@@ -1,10 +1,10 @@
 <?php
 
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateBantuansTable extends Migration
+class CreateKategorisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class CreateBantuansTable extends Migration
      */
     public function up()
     {
-        Schema::create('bantuans', function (Blueprint $table) {
+        Schema::create('kategoris', function (Blueprint $table) {
             $table->id();
-			$table->string('nama');
-			$table->string('email');
-			$table->integer('nohp');
-			$table->text('pesan');
+            $table->string('kategori');
+            $table->text('deskripsi');
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class CreateBantuansTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bantuans');
+        Schema::dropIfExists('kategoris');
     }
 }
