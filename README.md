@@ -6,7 +6,33 @@
 
 <a href="https://teer.id/biwbiw_" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-blue-2.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
 
+# Introduction
+
+**Selamat datang di Repositori Aplikasi SPP**
+
+Repositori ini berisi Aplikasi SPP berbasis laravel yang dirancang untuk memudahkan proses pembayaran SPP (Sumbangan Pembinaan Pendidikan) di Institusi pendidikan. Aplikasi ini dapat diakses melalui perangkat seluler atau komputer, memungkinkan siswa dan orang tua siswa untuk melakukan pembayaran dengan cepat dan efisien.
+
+**Fitur Utama**
+
+- Pembayaran SPP Online: Bayar SPP dengan mudah melalui aplikasi ini tanpa perlu antri di kantor sekolah.
+
+- Notifikasi Pembayaran: Dapatkan pemberitahuan ketika jatuh tempo pembayaran SPP.
+
+- Riwayat Pembayaran: Pantau riwayat pembayaran SPP Anda dengan detail transaksi yang mendetail.
+
+- Framework Laravel: Aplikasi ini menggunakan Laravel, framework PHP yang kuat dan memudahkan pengembangan.
+
+- Manajemen Akses: Kami menggunakan Spatie Laravel Permission untuk mengatur level akses pengguna.
+
+- Integrasi Payment Gateway: Aplikasi ini terhubung dengan payment gateway untuk pembayaran online.
+
 # Getting started
+
+## Disclaimer
+
+> **Aplikasi ini masih dalam tahap pengembangan, beberapa fitur masih belum tersedia atau belum lengkap. Jika anda ingin berkontribusi dalam repositori ini silahkan fork repositori ini.**  
+
+> **Repositori ini saya buat sebagai project belajar dan untuk menambah portofolio saya.**
 
 ## Installation
 
